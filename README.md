@@ -19,15 +19,30 @@ A modern and responsive landing page built using **React.js** and **Tailwind CSS
 
 ## 📂 Project Structure
 
+## 📂 Project Structure
+
 ```text
 src/
+├── assets/
+│   ├── profile-pictures/
+│   ├── code.jpg
+│   ├── logo.png
+│   ├── video1.mp4
+│   └── video2.mp4
+│
 ├── components/
-│   ├── Navbar.jsx
+│   ├── FeatureSection.jsx
+│   ├── Footer.jsx
 │   ├── HeroSection.jsx
+│   ├── NavBar.jsx
 │   ├── Pricing.jsx
-│   ├── Workflow.jsx
-│   └── Footer.jsx
+│   ├── TestingMonials.jsx
+│   └── Workflow.jsx
+│
 ├── constants/
+│   └── index.jsx
+│
+├── App.css
 ├── App.jsx
-├── main.jsx
-└── index.css
+├── index.css
+└── main.jsx
