@@ -12,7 +12,7 @@ function FeatureSection() {
                     {features.map((feature, index) => (
                         <div key={index} className="w-full sm:w-1/2 lg:w-1/3">
                             <div className="flex">
-                                <div className="flex mx-6 h-10 w-10 p-2 bg-neutral-900 text-orange-700 justify-center items-center rounded-full">{feature.icon}</div>
+                                <div className="flex mx-6 h-10 w-10 p-2 bg-neutral-900 text-orange-700 justify-center items-center rounded-full border border-orange-900">{feature.icon}</div>
                                 <div>
                                     <h5 className="mt-1 mb-3 text-xl">
                                         {feature.text}

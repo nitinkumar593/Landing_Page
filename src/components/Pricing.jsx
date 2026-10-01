@@ -10,7 +10,7 @@ function Pricing() {
             <div className="flex flex-wrap">
                 {pricingOptions.map((item, index)=>(
                     <div key={index} className="w-full sm:w-1/2 lg:w-1/3 p-2">
-                        <div className="p-10 border border-neutral-900 rounded-xl">
+                        <div className="p-10 border border-orange-900 rounded-xl">
                             <p className="text-4xl mb-8">
                                 {item.title}
                                 {item.title === "Pro" && <span className="bg-linear-to-r from-orange-500 to-orange-800 text-transparent bg-clip-text text-xl mb-4 ml-2">(Most Popular)</span>}
