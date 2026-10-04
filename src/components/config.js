@@ -13,4 +13,4 @@ const config = {
     siteKey: import.meta.env.VITE_SITE_KEY
 };
 
-export default config
+export default config;

@@ -7,13 +7,13 @@ import Pricing from "./components/Pricing";
 import TestingMonials from "./components/TestingMonials";
 import Footer from "./components/Footer";
 import SignUp from "./components/SignUp";
+import { Toaster } from "sonner";
 
 function Home() {
   return (
     <>
 
       <NavBar />
-
       <div className="max-w-7xl mx-auto pt-20 px-6">
         <HeroSection />
         <FeatureSection />
@@ -31,6 +31,7 @@ function Home() {
 function App() {
   return (
     <>
+      <Toaster position="top-right" closeButton/>
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/signUp" element={<SignUp />} />

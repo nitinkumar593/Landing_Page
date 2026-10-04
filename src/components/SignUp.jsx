@@ -13,6 +13,7 @@ function SignUp() {
     }
 
     return (
+        
         <div className="min-h-screen max-w-6xl mx-auto px-6 flex items-center">
             <div className="w-full flex flex-col lg:flex-row justify-center items-center gap-10 lg:gap-16">
                 {/* image */}
@@ -41,7 +42,7 @@ function SignUp() {
                         {/* password */}
                         <div className="space-y-2">
                             <label htmlFor="pass" className="block text-sm font-medium">Password</label>
-                            <input type="password" placeholder="********" required id="pass" className="w-full px-4 py-3 rounded-lg bg-neutral-900 border border-neutral-700 outline-none focus:border-orange-500 transition" />
+                            <input type="password" name="password" placeholder="********" required id="pass" className="w-full px-4 py-3 rounded-lg bg-neutral-900 border border-neutral-700 outline-none focus:border-orange-500 transition" />
                         </div>
                         {/* checkbox */}
                         <div className="flex items-center justify-between text-sm">
