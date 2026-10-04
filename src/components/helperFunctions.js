@@ -14,7 +14,7 @@ export default async function sendEmail(e, form) {
 
     try {
         const response = await axios.post(
-            "http://localhost:8080/signup",
+            "https://landingpage-backend-51yb.onrender.com/signup",
             data,
         );
         console.log("Registration success");
